@@ -1,0 +1,122 @@
+.hero-section {
+  background: var(--design-01);
+}
+
+.hero-content h2 {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+
+.hero-content p {
+  color: var(--primary-color);
+  line-height: 28px;
+}
+
+.hero-section p:nth-child(1) {
+  font-weight: 500;
+}
+
+.hero-button {
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  background: #202020;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 40px;
+}
+
+.hero-button a:hover {
+  color: #fff;
+}
+
+.hero-content {
+  padding-top: 45px;
+}
+
+.timer-count {
+  background: var(--design-06);
+  height: 350px;
+}
+
+.timer-count img {
+  width: 70% !important;
+  height: 70% !important;
+  object-fit: contain;
+}
+
+.store-button {
+  background-color: var(--design-05);
+  color: #202420;
+  border: none;
+  outline: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-top: 25px;
+  font-weight: 700;
+}
+
+.store-button a:hover {
+  color: var(--primary-color);
+}
+
+@media only screen and (max-width: 992px) {
+  .hero-content h2 {
+    font-size: 2rem;
+  }
+  
+  .section-title {
+    font-size: 1.7rem;
+  }
+  
+  .counter-image {
+    display: none;
+  }
+
+  .clock-top-content {
+    text-align: center;
+  }
+
+  .clock-top-content h4 {
+    font-size: 0.9rem !important;
+  }
+
+  .clock-top-content h3 {
+    font-size: 1rem !important;
+  }
+
+  .count-down-col {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero-content h2 {
+    font-size: 1.6rem;
+  }
+
+  .hero-content p {
+    font-size: 0.9rem;
+  }
+
+  .hero-button a {
+    font-size: 0.9rem;
+  }
+
+  .section-title {
+    font-style: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .hero-content {
+    padding-top: 0;
+    margin-bottom: 40px;
+  }
+}

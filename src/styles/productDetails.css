@@ -1,0 +1,122 @@
+
+.product-details {
+  margin-top: 50px;
+}
+
+.product-details h2 {
+  font-style: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.product-rating span i {
+  color: coral;
+}
+
+.product-rating p span {
+  color: coral;
+  font-weight: 500;
+}
+
+.product-price {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.buy-button {
+  border: none;
+  outline: none;
+  padding: 8px 20px;
+  border-radius: 5px;
+  background: #202020;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  margin-top: 40px;
+}
+
+.buy-button a:hover {
+  color: #fff;
+}
+
+.reviews {
+  color: var(--design-08);
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.active-reviews {
+  font-weight: 600;
+}
+
+.reviews h6 {
+  color: var(--design-08);
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.reviews-content p{
+  line-height: 30px;
+}
+
+.review-wrapper ul li span {
+  color: coral;
+  font-weight: 600;
+}
+
+.review-wrapper ul li p {
+  margin-top: 10px;
+}
+
+.review-form {
+  width: 70%;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.review-form h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.form-group input, .form-group textarea {
+  width: 100%;
+  border: 1px solid var(--design-08);
+  border-radius: 5px;
+  padding: 8px 20px;
+}
+
+.form-group input:focus, .form-group textarea:focus {
+  outline: none;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.form-group span {
+  display: flex;
+  align-items: center;
+  column-gap: 5px;
+  color: coral;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.related-title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+  .product-details h2 {
+    font-size: 1.3rem;
+  }
+
+  .rating-group {
+    column-gap: 1r em !important;
+  }
+}
